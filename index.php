@@ -4,7 +4,7 @@ use App\Model\Produto;
 use App\Model\ProdutoDao;
 
 require_once 'vendor/autoload.php';
-ini_set('display_errors', 1);
+
 
 $produto = new Produto;
 $produto->setId(2);
