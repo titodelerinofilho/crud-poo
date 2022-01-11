@@ -5,8 +5,8 @@ use App\Model\ProdutoDao;
 
 require_once 'vendor/autoload.php';
 
-
 $produto = new Produto;
+
 $produto->setId(2);
 $produto->setNome('Cabo de Alarme');
 $produto->setDescricao('Cabo para alarme branco');
